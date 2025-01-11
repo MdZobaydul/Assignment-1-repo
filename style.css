@@ -209,7 +209,7 @@ max-width: 370px;
     border: 1px solid #0E0E0E26;
 }
 .future-footer-description{
-    background: url('assets/quote-bg.png');
+    background: url('quote-bg.png');
     background-repeat: no-repeat;
     background-size: 45px;
     background-position: 20px 20px, top left;
