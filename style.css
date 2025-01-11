@@ -65,20 +65,13 @@ max-width: 370px;
 
 /* future section style */
 .future-section{
-
-width: 990px;
-
-display: flex;
-
-justify-content: center;
-
-flex-direction: column;
-
-align-items: flex-start;
-
-margin: 0px auto;
-
-gap: 24px;
+    width: 990px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 0px auto;
+    gap: 24px;
+    justify-content: flex-start;
 }
 .future-description-ber{
     display: flex;
@@ -102,8 +95,8 @@ gap: 24px;
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 35px;
-    width: 1000px;
+    gap: 30px;
+    width: 990px;
     }
 .future-card1{
     background: #5492f545;
@@ -162,9 +155,7 @@ gap: 24px;
     color: #0E0E0EB2;
     line-height: 18px;
 }
-.future-card-btn{
-    
-}
+
 .future-btn1{    
     width: 85px;    
     height: 30px;    
