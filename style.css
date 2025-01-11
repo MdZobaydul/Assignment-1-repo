@@ -215,14 +215,14 @@ max-width: 370px;
     background-position: 20px 20px, top left;
     padding: 30px 20px;
 }
-.future-card-title p {
+.future-footer-prgp{
     font-size: 11px;
     font-weight: 400;
     line-height: 20px;
     text-align: justify;
     color: #0e0e0eb0;
 }
-.future-card-title h4 {
+.future-footer-title{
     font-size: 12px;
     font-weight: 600;
     line-height: 24px;
