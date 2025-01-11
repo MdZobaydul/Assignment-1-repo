@@ -63,3 +63,141 @@ body{
 max-width: 370px;
 }
 
+/* future section style */
+.future-section{
+
+width: 990px;
+
+display: flex;
+
+justify-content: center;
+
+flex-direction: column;
+
+align-items: flex-start;
+
+margin: 0px auto;
+
+gap: 24px;
+}
+.future-description-ber{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 20px;
+}
+.future-title{
+    font-size: 27px;
+    font-weight: 700;
+    color: #0E0E0E;
+}
+.future-description{
+    font-size: 12.5px;
+    font-weight: 400;
+    color: #0E0E0EB2;
+    line-height: 18px;
+}
+.future-card-ber{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 35px;
+    width: 1000px;
+    }
+.future-card1{
+    background: #5492f545;
+    padding: 25px;
+    border-radius: 10px;
+    width: 260px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: start;
+    height: 200;
+    gap: 20px;
+}
+.future-card2{
+    background: #C6E4D6;
+    padding: 25px;
+    border-radius: 10px;
+    width: 260px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: start;
+    gap: 20px;
+}
+.future-card3{
+    background: #F7EBCF;
+    padding: 25px;
+    border-radius: 10px;
+    width: 260px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: start;
+    gap: 20px;
+}
+.future-card-icon img{
+    width: 45px;
+    height: 45px;
+}
+.future-card-description-ber{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    gap: 10px;
+}
+.future-card-title{
+    font-size: 16px;
+    color: #0E0E0ECC;
+}
+.future-card-description{
+    font-size: 12px;
+    font-weight: 400;
+    color: #0E0E0EB2;
+    line-height: 18px;
+}
+.future-card-btn{
+    
+}
+.future-btn1{    
+    width: 85px;    
+    height: 30px;    
+    padding: 6px 13px 6px 13px;    
+    gap: 32px;
+    border-radius: 5px;    
+    background: #5490F5;   
+    border: none;    
+    font-size: 11px;    
+    font-weight: 600;    
+    color: #FFFFFF;
+}
+.future-btn2{    
+    width: 85px;    
+    height: 30px;    
+    padding: 6px 13px 6px 13px;    
+    gap: 32px;
+    border-radius: 5px;    
+    background: #09A15C;   
+    border: none;    
+    font-size: 11px;    
+    font-weight: 600;    
+    color: #FFFFFF;
+}
+.future-btn3{    
+    width: 85px;    
+    height: 30px;    
+    padding: 6px 13px 6px 13px;    
+    gap: 32px;
+    border-radius: 5px;    
+    background: #FFC239;   
+    border: none;    
+    font-size: 11px;    
+    font-weight: 600;    
+    color: #FFFFFF;
+}
