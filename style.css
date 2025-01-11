@@ -56,8 +56,7 @@ body{
     color: #FFFFFF;
     font-size: 14px;
 }
-.banner-img{
-}
+
 .banner-img img{
 
 max-width: 370px;
@@ -98,7 +97,7 @@ max-width: 370px;
     gap: 30px;
     width: 990px;
     }
-.future-card1{
+.future-card-one{
     background: #5492f545;
     padding: 25px;
     border-radius: 10px;
@@ -110,7 +109,7 @@ max-width: 370px;
     height: 200;
     gap: 20px;
 }
-.future-card2{
+.future-card-two{
     background: #C6E4D6;
     padding: 25px;
     border-radius: 10px;
@@ -122,7 +121,7 @@ max-width: 370px;
     align-items: start;
     gap: 20px;
 }
-.future-card3{
+.future-card-three{
     background: #F7EBCF;
     padding: 25px;
     border-radius: 10px;
@@ -155,8 +154,7 @@ max-width: 370px;
     color: #0E0E0EB2;
     line-height: 18px;
 }
-
-.future-btn1{    
+.future-btn-one{    
     width: 85px;    
     height: 30px;    
     padding: 6px 13px 6px 13px;    
@@ -168,7 +166,7 @@ max-width: 370px;
     font-weight: 600;    
     color: #FFFFFF;
 }
-.future-btn2{    
+.future-btn-two{    
     width: 85px;    
     height: 30px;    
     padding: 6px 13px 6px 13px;    
@@ -180,7 +178,7 @@ max-width: 370px;
     font-weight: 600;    
     color: #FFFFFF;
 }
-.future-btn3{    
+.future-btn-three{    
     width: 85px;    
     height: 30px;    
     padding: 6px 13px 6px 13px;    
