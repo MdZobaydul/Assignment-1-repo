@@ -79,10 +79,10 @@ max-width: 370px;
     align-items: flex-start;
     flex-direction: column;
     gap: 20px;
-    width: 990px;
+    width: 988px;
 }
 .future-title{
-    font-size: 27px;
+    font-size: 28px;
     font-weight: 700;
     color: #0E0E0E;
 }
@@ -101,8 +101,8 @@ max-width: 370px;
     }
 .future-card-one{
     background: #5492f545;
-    padding: 25px;
-    width: 30%;
+    padding: 24px;
+    width: 32%;
     border-radius: 10px;
     display: flex;
     justify-content: space-between;
@@ -113,9 +113,9 @@ max-width: 370px;
 }
 .future-card-two{
     background: #C6E4D6;
-    padding: 25px;
+    padding: 24px;
     border-radius: 10px;
-    width: 30%;
+    width: 32%;
     height: 200px;
     display: flex;
     justify-content: space-between;
@@ -125,9 +125,9 @@ max-width: 370px;
 }
 .future-card-three{
     background: #F7EBCF;
-    padding: 25px;
+    padding: 24px;
     border-radius: 10px;
-    width: 30%;
+    width: 32%;
     height: 200px;
     display: flex;
     justify-content: space-between;
@@ -152,9 +152,10 @@ max-width: 370px;
     justify-content: center;
     align-items: start;
     gap: 12px;
+    font-size: 15px;
 }
 .future-card-description{
-    font-size: 12px;
+    font-size: 12.5px;
     font-weight: 400;
     color: #0E0E0EB2;
     line-height: 18px;
@@ -216,15 +217,97 @@ max-width: 370px;
     padding: 30px 20px;
 }
 .future-footer-prgp{
-    font-size: 11px;
+    font-size: 12.5px;
     font-weight: 400;
     line-height: 20px;
     text-align: justify;
     color: #0e0e0eb0;
 }
 .future-footer-title{
-    font-size: 12px;
+    font-size: 15px;
     font-weight: 600;
     line-height: 24px;
     text-align: left;
+}
+
+/* news section stylee css */
+
+/* donate section style */
+.donate-section{
+    display: flex;    
+    flex-direction: column;    
+    justify-content: center;    
+    align-items: center;    
+    gap: 20px;    
+    padding: 25px 0px;
+}
+.donate-description{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+}
+
+.donate-tk{
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 48px;
+    text-align: left;
+    color: #0E0E0E;
+}
+.donate-sub-title{
+    font-size: 12.5px;
+    font-weight: 400;
+    line-height: 20px;
+    text-align: center;
+    color: #0e0e0e9c;
+    width: 69%;
+}
+.donate-title{
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 33px;
+    text-align: center;
+    color: #0E0E0E;
+}
+
+.donate-done{
+    font-size: 12.5px;
+    font-weight: 600;
+    line-height: 18.6px;
+    text-align: left;
+    color: #FFFFFF;
+    background-color: #006A50;
+    padding: 5px 15px;
+    border-radius: 4px;
+    border: 1px solid #0E0E0E1A;
+}
+.donate-footer{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+gap: 15px;
+}
+.donate-text{
+    text-align: center;
+    padding: 15px 20px;
+    border: 1px solid #0E0E0E26;
+    width: 400%;
+}
+.donate-amount{
+    background: #FFFFFF;
+    padding: 15px 38px;
+    border-radius: 10px;
+    border: 1px solid #0e0e0e3b;
+}
+.donate-pay{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 22px;
+}
+.donet-extra-design{
+    background-color: #C6E4D6;
 }
