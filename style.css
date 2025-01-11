@@ -97,7 +97,7 @@ max-width: 370px;
     gap: 30px;
     width: 990px;
     }
-.future-card1{
+.future-card-one{
     background: #5492f545;
     padding: 25px;
     border-radius: 10px;
@@ -109,7 +109,7 @@ max-width: 370px;
     height: 200;
     gap: 20px;
 }
-.future-card2{
+.future-card-two{
     background: #C6E4D6;
     padding: 25px;
     border-radius: 10px;
@@ -121,7 +121,7 @@ max-width: 370px;
     align-items: start;
     gap: 20px;
 }
-.future-card3{
+.future-card-three{
     background: #F7EBCF;
     padding: 25px;
     border-radius: 10px;
