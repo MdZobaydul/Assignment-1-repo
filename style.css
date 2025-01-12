@@ -10,7 +10,7 @@ body{
 }
 
 /* input style start */
-::placeholder{
+/* ::placeholder{
     color: #0e0e0e69;
 }
 input:focus::placeholder{
@@ -18,7 +18,7 @@ input:focus::placeholder{
 }
 input:focus{
     outline: 1px solid gray;
-}
+} */
 /* input style end */
 
 /* nav ber style start */
