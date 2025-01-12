@@ -12,17 +12,23 @@ body{
 
 
 /* banner style */
-.banner{
-    width: 890px;
+.banner-section{
+    width: 990px;
     height: 400px;
     background-color: #C6E4D6;
     border-radius: 16px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 0px 50px;
     margin: 0 auto;
-    margin-bottom: 25px;
+}
+
+.header-baner{
+
+display: flex;
+
+justify-content: space-between;
+
+align-items: center;
+
+padding: 50px;
 }
 .banner-description-ber{
     display: flex;
@@ -48,9 +54,7 @@ body{
     color: #0E0E0E;
 }
 .banner-btn{
-    width: 180px;
-    height: 38;
-    padding: 12px 5px 12px 5px;
+    padding: 10px 10px;
     border: none;
     border-radius: 6px;
     background: #006A50;
@@ -60,12 +64,12 @@ body{
 
 .banner-img img{
 
-max-width: 370px;
+width: 360px;
 }
 
 /* future section style */
 .future-section{
-    width: 890px;
+    width: 990px;
     display: flex;
     flex-direction: column;
     margin: 0px auto;
@@ -232,14 +236,148 @@ max-width: 370px;
 
 /* news section stylee css */
 
+.news-section{
+    gap: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.news-section-ber{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0px auto;
+    width: 990px;
+}
+.news-title-ber{
+
+display: flex;
+
+flex-direction: column;
+
+justify-content: center;
+
+align-items: start;
+
+gap: 20px;
+}
+.news-title{
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 33px;
+    text-align: left;
+    color: #0E0E0E;
+
+}
+.news-description{
+    font-size: 12.5px;
+    font-weight: 400;
+    line-height: 20px;
+    text-align: left;
+    color: #0e0e0ea6;
+}
+.news-banner-design{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+    padding: 35px;
+    border: 1px solid #0e0e0e14;
+    background: #FFFFFF;
+    border-radius: 10px;
+}
+.news-banner-img{
+}
+
+.news-banner-img img{
+    width: 280px;
+    height: 215px;
+    border-radius: 15px;
+}
+
+.news-banner-description-ber{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 25px;
+}
+.news-banner-title{
+    font-size: 21.5px;
+    font-weight: 700;
+    line-height: 26px;
+    text-align: left;
+    color: #0E0E0ECC;
+}
+.news-banner-logo{
+
+}
+.news-banner-logo img{
+    
+height: 28px;
+    
+width: 90px;
+}
+.news-upload-time{
+    font-size: 12.5px;
+    font-weight: 400;
+    line-height: 13px;
+    text-align: left;
+    color: #0e0e0ea6;
+}
+.news-upload-date{
+    font-size: 12.5px;
+    font-weight: 400;
+    line-height: 13px;
+    text-align: left;
+    color: #0E0E0EB2;
+}
+.news-upload-time{
+    display: flex;
+    gap: 10px;
+    align-items: start;
+    justify-content: center;
+}
+.news-banner-title-ber{
+
+display: flex;
+
+flex-direction: column;
+
+justify-content: center;
+
+align-items: start;
+
+gap: 7px;
+}
+.news-banner-description{
+    font-size: 12.5px;
+    font-weight: 400;
+    line-height: 17px;
+    text-align: left;
+    color: #0E0E0EB2;
+}
+.news-banner-btn{
+    border: none;
+    border-radius: 5px;
+    background: #006A50;
+    color: #FFFFFF;
+    font-size: 11px;
+    padding: 6px 13px;
+    height: 30px;
+    width: 85px;
+}
 /* donate section style */
 .donate-section{
-    display: flex;    
-    flex-direction: column;    
-    justify-content: center;    
-    align-items: center;    
-    gap: 20px;    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
     padding: 25px 0px;
+    width: 990px;
+    margin: 0 auto;
 }
 .donate-description{
     display: flex;
@@ -284,11 +422,11 @@ max-width: 370px;
     border: 1px solid #0E0E0E1A;
 }
 .donate-footer{
-display: flex;
-flex-direction: column;
-justify-content: center;
-align-items: center;
-gap: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
 }
 .donate-text{
     text-align: center;
