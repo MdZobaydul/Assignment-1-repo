@@ -569,6 +569,7 @@ input:focus{
     background: #FFFFFF;
     gap: 20px;
     padding: 50px;
+    max-width: 100%;
 }
 
 .footer-title{
