@@ -9,11 +9,29 @@ body{
     background-color: #F1F1F3;
 }
 /* header style */
+/* nav ber style */
+.nav-ber{
 
+width: 1000px;
+
+display: flex;
+
+justify-content: space-between;
+
+margin: 0 auto;
+
+padding: 15px 0px;
+}
+.nav-ber h4{
+    font-size: 22px;
+    font-weight: 700;
+    color: #0E0E0E;
+}
+.nav-ber button{font-size: 14px;font-weight: 600;color: #006A50;border: 1px #006A50 solid;padding: 9px 20px;border-radius: 5px;}
 
 /* banner style */
 .banner-section{
-    width: 990px;
+    width: 1000px;
     height: 400px;
     background-color: #C6E4D6;
     border-radius: 16px;
@@ -69,7 +87,7 @@ width: 360px;
 
 /* future section style */
 .future-section{
-    width: 990px;
+    width: 1000px;
     display: flex;
     flex-direction: column;
     margin: 0px auto;
@@ -99,9 +117,8 @@ width: 360px;
 .future-card-ber{
     display: flex;
     align-items: center;
-    justify-content: center;
-    gap: 30px;
-    width: 990px;
+    justify-content: space-around;
+    gap: 25px;
     }
 .future-card-one{
     background: #5492f545;
@@ -209,7 +226,7 @@ width: 360px;
 }
 .future-footer-descripton-ber{
     background: #FFFFFF;
-    width: 990px;
+    width: 1000px;
     border-radius: 10px;
     border: 1px solid #0E0E0E26;
 }
@@ -237,11 +254,11 @@ width: 360px;
 /* news section stylee css */
 
 .news-section{
-    gap: 25px;
+    gap: 20px;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
+    align-items: flex-start;
 }
 .news-section-ber{
     display: flex;
@@ -249,7 +266,7 @@ width: 360px;
     justify-content: center;
     align-items: center;
     margin: 0px auto;
-    width: 990px;
+    width: 1000px;
 }
 .news-title-ber{
 
@@ -259,7 +276,7 @@ flex-direction: column;
 
 justify-content: center;
 
-align-items: start;
+align-items: flex-start;
 
 gap: 20px;
 }
@@ -279,6 +296,16 @@ gap: 20px;
     color: #0e0e0ea6;
 }
 .news-banner-design{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+    padding: 35px;
+    border: 1px solid #0e0e0e14;
+    background: #FFFFFF;
+    border-radius: 10px;
+}
+.news-banner-design-revert{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -375,8 +402,7 @@ gap: 7px;
     justify-content: center;
     align-items: center;
     gap: 20px;
-    padding: 25px 0px;
-    width: 990px;
+    width: 1000px;
     margin: 0 auto;
 }
 .donate-description{
@@ -400,7 +426,7 @@ gap: 7px;
     line-height: 20px;
     text-align: center;
     color: #0e0e0e9c;
-    width: 69%;
+    width: 88%;
 }
 .donate-title{
     font-size: 28px;
