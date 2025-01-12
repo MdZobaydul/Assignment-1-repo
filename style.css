@@ -10,6 +10,7 @@ body{
 }
 /* header style */
 /* nav ber style */
+
 .nav-ber{
     width: 1000px;
     display: flex;
@@ -32,6 +33,7 @@ body{
 }
 
 /* banner style */
+
 .banner-section{
     width: 1000px;
     height: 400px;
@@ -39,8 +41,7 @@ body{
     border-radius: 16px;
     margin: 0 auto;
 }
-
-.header-baner{
+.header-banner{
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -298,7 +299,7 @@ width: 360px;
     background: #FFFFFF;
     border-radius: 10px;
 }
-.news-banner-design-two{
+.news-banner-designn{
     display: flex;
     justify-content: center;
     align-items: center;
